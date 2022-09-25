@@ -6,10 +6,10 @@ body {
   color: #ffffff;
 }
 
-body {
+/* body {
   background: url(./images/bg01.jpg) repeat center center fixed;
   background-size: cover;
-}
+} */
 
 video {
   position: absolute;
