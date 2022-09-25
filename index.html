@@ -22,6 +22,7 @@
           minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
+          backgroundColor: 0x0,
         });
 
         const main = document.querySelector("main");
@@ -34,10 +35,18 @@
     <div id="animated-background"></div>
     <main>
       <div class="header">
-        <img src="./images/takuya.jpg" alt="profile" />
-        <h1 onclick="window.location='https://www.instagram.com/nuno.rifa_/';">
-          @nuno.rifa_
-        </h1>
+        <div class="card">
+          <img src="./images/takuya.jpg" alt="profile" />
+          <div class="profile">
+            <div class="name">Nuno Rigo Fadilah</div>
+            <div class="job">Front End Web Developer</div>
+            <h1
+              onclick="window.location='https://www.instagram.com/nuno.rifa_/';"
+            >
+              @nuno.rifa_
+            </h1>
+          </div>
+        </div>
       </div>
       <ul>
         <li onclick="window.location='https://nunorifa.github.io/';">
