@@ -57,7 +57,7 @@ main {
   gap: 1em;
 }
 
-.header .card > img {
+.header .card img {
   width: 6em;
   height: 6em;
   border-radius: 100%;
