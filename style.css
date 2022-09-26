@@ -6,10 +6,10 @@ body {
   color: #ffffff;
 }
 
-/* body {
+body {
   background: url(./images/bg01.jpg) repeat center center fixed;
   background-size: cover;
-} */
+}
 
 video {
   position: absolute;
@@ -104,8 +104,8 @@ ul {
 
 li {
   background: #fffa;
-  backdrop-filter: blur(8px) saturate(160%) contrast(180%);
-  -webkit-backdrop-filter: blur(8px) saturate(160%) contrast(180%);
+  backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   border-radius: 10em;
   padding: 1em;
   margin: 1.4em;
